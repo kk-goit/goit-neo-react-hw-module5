@@ -24,6 +24,7 @@ function HomePage({ setErrMsg = () => { } }) {
       try {
         setErrMsg("")
         setLoading(true)
+        setMovies({})
         const data = await getTrends(curPage)
         setMovies(data)
       } catch (err) { 
