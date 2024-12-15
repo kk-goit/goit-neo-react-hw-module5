@@ -1,0 +1,20 @@
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 7px 5px -5px;
+}
+
+.detailsInfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.detailsInfo span {
+  margin-right: 20px;
+}

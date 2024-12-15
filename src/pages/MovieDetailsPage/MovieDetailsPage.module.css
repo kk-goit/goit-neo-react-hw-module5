@@ -1,0 +1,34 @@
+.theMovie {
+  width: 100%;
+  margin: 10px 0;
+  padding: 0 5px 0 5px;
+}
+
+.goBack {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 7px;
+  margin-bottom: 5px;
+}
+.leftArrow {
+  height: 1.2em;
+}
+
+.additional {
+  padding: 15px 0;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 7px 5px -5px;
+}
+.additional ul {
+  margin-left: 25px;
+}
+
+.link {
+  text-decoration: none;
+}
+.link:hover, .link:focus {
+  text-decoration: underline;
+}
+.active {
+  color: red;
+}

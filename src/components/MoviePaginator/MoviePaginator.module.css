@@ -1,0 +1,15 @@
+.paginator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.paginator button {
+  width: 3em;
+}
+
+.empty {
+  width: 40px;
+}

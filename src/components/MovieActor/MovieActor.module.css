@@ -1,0 +1,10 @@
+.theActor {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  gap: 10px
+}
+
+.actorInfo {
+  padding: 10px 0;
+}
